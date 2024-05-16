@@ -1,4 +1,0 @@
-thing to do 
-->learn basics 
-->create purble pairs
-->create purblepairs with html css

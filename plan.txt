@@ -1,0 +1,2 @@
+ *the plan is to learn the basics 
+ *then crete puble pairs game with css,HTML and javascript

@@ -1,0 +1,5 @@
+to do 
+->learn basics 
+->create a puble pair game with js
+->create a puble pair game with	js,html and css
+

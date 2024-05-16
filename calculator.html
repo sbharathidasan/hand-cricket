@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>basic calculator using alert box</title>
+    <body>
+      <script>
+        
+        while(true) {
+          
+        const operator=prompt("enter the operator for calulation (+,-./,%,*)");
+        const num1=parseFloat(prompt("number1:"));
+        const num2=parseFloat(prompt("number2:"));
+          
+        if (operator==='+'){
+          alert(num1+num2);
+        }
+        else if (operator==='-'){
+          alert(num1-num2);
+        }
+        else if (operator==='*'){
+          alert(num1*num2);
+        }
+        else if (operator==='/'){
+          alert(num1/num2);
+        }
+        else {
+          alert(num1%num2);
+        }
+        }
+        
+      </script>
+    </body>
+  </head>
+</html>

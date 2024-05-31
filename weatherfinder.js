@@ -1,6 +1,6 @@
-let city=document.getElementById('cities');
-console.log(city);
-let weatherUrl='https://api.weatherapi.com/v1/current.json?key=271356ed85524972af7112416242305&q=india&aqi=yes';
+let city=document.getElementById('cities')
+console.log(city)
+let weatherUrl='https://api.weatherapi.com/v1/current.json?key=271356                                                                                                                                                                                                                                                                                                                                                                                                                     ed85524972af7112416242305&q=india&aqi=yes'
 fetch(weatherUrl)
 .then(res=>((res.json())))
 .then(msg=>(document.getElementById('res').innerHTML=msg.location.country,
